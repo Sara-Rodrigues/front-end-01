@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Segundo exemplo de formulário</title>
+    </head>
+    <body>
+        <form id="formulario" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" /> </br>
+
+            <label for="idade">Idade:</label>
+            <input type="text" /> </br>
+
+            <label for="senha">Senha:</label>
+            <input type="password" /> </br>
+
+            <fieldset>
+                <legend>Sexo:</legend>
+                <input type="radio" value="masculino" />M
+                <input type="radio" value="feminino" />F
+            </fieldset>
+
+            <fieldset>
+                <legend>Estado Civil:</legend>
+                <input type="radio" value="casado" />Casado
+                <input type="radio" value="Enrolado" />Enrolado
+                <input type="radio" value="Solteiro" />Solteiro
+            </fieldset>
+
+            <fieldset>
+                <legend>Comida favorita:</legend>
+                <input type="checkbox" value="Macarrão" />Macarrão<br>
+                <input type="checkbox" value="Frango" />Frango
+            </fieldset>
+
+            <label>Selecione seu arquivo: </label>
+            <input type="file" /> </br>
+
+            <label>Selecione uma cor:</label>
+            <input type="color" /> </br>
+
+            <label for="email">Email:</label>
+            <input type="email" /> </br>
+
+            <label for="numero">Número:</label>
+            <input type="number" /> </br>
+
+            <input type="range" name="vol" min="0" max="100"><br>
+
+            <label for="data">Selecione uma data:</label>
+            <input type="date" /> </br>
+
+            <label>Selecione uma data e horas:</label>
+            <input type="text" /> </br>
+
+            <label>Selecione uma data, horas e local:</label>
+            <input type="datetime-local" /> </br>
+            
+            <label for="hora">Selecione uma hora:</label>
+            <input type="time" /> </br>
+
+            <label for="semana">Selecione uma semana:</label>
+            <input type="week" /> </br>
+
+            <label for="mes">Selecione um mês:</label>
+            <input type="month" /> </br>
+
+            <textarea rows="5" cols="30">Caixa de texto com 5 linhas e 30 colunas</textarea> </br>
+
+            <select id="cores">
+                <option value="V" selected>Vermelho</option>
+                <option value="A">Amarelo</option>
+                <option value="L">Laranja</option>
+                <option value="R">Roxo</option>
+                <option value="P">Preto</option>
+            </select>
+
+            <label for="url">URL:</label>
+            <input type="url"/> </br>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Redefinir</button>
+        </form>
+    </body>
+</html>
