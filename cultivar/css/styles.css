@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body, p, h1 {
+    font-family: 'Montserrat';
+}
+
+.container {
+	width: 1010px;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.menu {
+	text-align: right;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 16px;
+    margin-left: 50px;
+}
+
+.menu a {
+    display: inline-block;
+    color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 16px;
+    text-decoration: none;
+    font-family: 'Montserrat';
+}
+
+.menu button {
+    background-color: #7F0396;
+    width: 185px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+}
+
+.banner {
+    width: 100%;
+	height: 665px;
+	background: url("../img/banner-img.jpg") no-repeat center;
+	background-size: cover;
+    margin-top: -90px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+
+}
+
+.intro p {
+    color: white;
+    font-size: 56px;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+
+.about {
+    height: 620px;
+}
+
+.about h1 {
+    color: #3F3B40;
+    font-size: 36px;
+    font-family: 'Montserrat';
+    text-align: center;
+    margin-top: 60px;
+}
+
+.content {
+    Height: 355px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.content div {
+    color: #3F3B40;
+}
+
+.content p {
+    width: 420px;
+    height: 215px;
+    font-size: 22px;
+    padding-top: 100px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.content-jobs h1 {
+    color: #3F3B40;
+    font-size: 36px;
+    text-align: center;
+}
+
+.jobs {
+    display: flex;
+    margin-top: 80px;
+}
+
+.box-jobs {
+    width: 300px;
+    height: 300px;
+    background: #7F0396;
+    border-radius: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 35px;
+    color: white;
+}
+
+.box-jobs h2 {
+    font-size: 24px;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.box-jobs p {
+    text-align: center;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.quote {
+    width: 100%;
+	height: 215px;
+	background: url("../img/quote-bg.jpg") no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.quote div {
+    width: 600px;
+    height: 75px;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+
+.rodape {
+    width: 100%;
+    height: 50px;
+    background-color: #203802;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.rodape p {
+    font-family: 'Montserrat';
+    color: white;
+    padding: 10px;
+}
